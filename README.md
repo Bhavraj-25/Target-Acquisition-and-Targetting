@@ -22,7 +22,7 @@ This project simulates a simplified version of a military-grade targeting pod sy
 
 - Arduino UNO  
 - Python (OpenCV, PySerial)  
-- Servo Motors (SG90 / MG90S)  
+- Servo Motors 
 - USB/Web Camera  
 - 3D Printed Components  
 - Serial Communication  
@@ -31,7 +31,7 @@ This project simulates a simplified version of a military-grade targeting pod sy
 
 1. The PC captures live frames from a standard webcam.  
 2. Python processes the frames using basic object detection techniques (e.g., color thresholding, contours, or motion).  
-3. The target’s location is mapped to one of 12 directional sectors (clock system).  
+3. The target's position is computed by analyzing its relative displacement in (x, y) coordinates from the system's origin and is assigned to a directional sector for tactical orientation and engagement planning. 
 4. A serial command is sent to Arduino indicating the required adjustment.  
 5. The Arduino adjusts the gimbal's X and Y angles using servo motors to align with the target.  
 
@@ -40,7 +40,7 @@ This project simulates a simplified version of a military-grade targeting pod sy
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/dvanhu/Target-Acquisition-and-Targetting.git  
+   git clone https://github.com/Bhavraj-25/Target-Acquisition-and-Targetting.git  
 Upload the Arduino sketch from the /arduino/ directory to your Arduino UNO using the Arduino IDE.
 
 Run the Python script from the /python/ directory:
@@ -67,8 +67,7 @@ https://github.com/Bhavraj-25/Target-Acquisition-and-Targetting/blob/29f0abaec44
 
 - Add support for AI-based object detection (YOLO, Haar cascades)  
 - Replace USB camera with thermal or night-vision camera  
-- Integrate with ESP32 for wireless control  
-- Add GUI dashboard using PyQt or Streamlit  
+- Integration with the Raspberry Pi will allow it to manage object detection, tracking, and hardware control in a unified system. 
 - Implement multi-target prioritization logic  
 
 ## Developed By
