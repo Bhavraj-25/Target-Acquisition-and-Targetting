@@ -1,4 +1,4 @@
-# Target-Acquisition-and-Targetting 
+# Target-Acquisition-and-Targeting 
 
 A conceptual prototype of a Sniper Advanced Targeting Pod using a standard camera, Arduino, and servo-driven gimbal for real-time object tracking and directional estimation.
 
