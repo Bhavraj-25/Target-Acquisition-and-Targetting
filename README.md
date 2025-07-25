@@ -16,7 +16,7 @@ This project simulates a simplified version of a military-grade targeting pod sy
 -  3D-printed modular enclosure and lightweight structure  
 
 ## System Architecture
-<img width="1224" height="857" alt="flowchart" src="https://github.com/user-attachments/assets/c6118ae2-d1a4-47f5-a43e-1b445cb8e5c0" />
+![flowchart](https://github.com/user-attachments/assets/6fbdfd66-32c8-4042-a1ea-ff8673c2d5c9)
 
 ## Technologies Used
 
