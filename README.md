@@ -5,6 +5,11 @@ A conceptual prototype of a Sniper Advanced Targeting Pod using a standard camer
 ## Overview
 
 This project simulates a simplified version of a military-grade targeting pod system. It utilizes a standard USB/web camera for object detection and an Arduino-controlled gimbal mechanism to track and orient toward the target. The direction is estimated using a clock-based reference (e.g., “3 o’clock”) by dividing the field of view into sectors. The system uses serial communication to interface between the PC (running the tracking algorithm) and the Arduino (driving the servo motors).
+## Note:
+- Test Code/face_detect_test.py is used solely for validating coordinate extraction and ensuring accurate bounding box mapping from the object detection module.
+- The primary system logic, including hardware control and target tracking, is implemented in Test Code/Jet-test.py.
+- Test Code/cuda_test.py is designed to verify CUDA compatibility and GPU acceleration support for optimized real-time performance.
+
 
 ## Features
 
@@ -33,8 +38,15 @@ This project simulates a simplified version of a military-grade targeting pod sy
 2. Python processes the frames using basic object detection techniques (e.g., color thresholding, contours, or motion).  
 3. The target's position is computed by analyzing its relative displacement in (x, y) coordinates from the system's origin and is assigned to a directional sector for tactical orientation and engagement planning. 
 4. A serial command is sent to Arduino indicating the required adjustment.  
-5. The Arduino adjusts the gimbal's X and Y angles using servo motors to align with the target.  
+5. The Arduino adjusts the gimbal's X and Y angles using servo motors to align with the target.
 
+## Reference
+
+
+https://github.com/user-attachments/assets/5fa68242-3ed6-42df-91c3-79daa8096e24
+
+
+Note: The system is currently undergoing fine-tuning to enhance object detection accuracy and hardware response synchronization.
 ## Getting Started
 
 1. Clone the repository:
