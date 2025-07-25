@@ -1,0 +1,17 @@
+Libraries required:
+- cv2
+- torch
+- numpy
+- serial
+- time
+- torchvision
+- ultralytics
+
+GPU Requirements:
+To run this project on GPU, ensure you have an NVIDIA GPU with compatible drivers and have installed the CUDA Toolkit 12.6.
+Install the correct PyTorch and torchvision versions with CUDA 12.6 support:
+
+pip install torch==2.6.0+cu126 torchvision==0.21.0+cu126 --index-url https://download.pytorch.org/whl/cu126
+
+You can download the appropriate CUDA Toolkit 12.6 from:
+https://developer.nvidia.com/cuda-downloads
