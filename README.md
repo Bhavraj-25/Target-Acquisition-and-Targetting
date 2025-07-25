@@ -82,10 +82,3 @@ https://github.com/Bhavraj-25/Target-Acquisition-and-Targetting/blob/29f0abaec44
 - Integration with the Raspberry Pi will allow it to manage object detection, tracking, and hardware control in a unified system. 
 - Implement multi-target prioritization logic  
 
-## Developed By
-Bhavraj Sairem  
-🖂sairem.bhavraj2512@gmail.com 🔗https://github.com/Bhavraj-25 🌐https://www.linkedin.com/in/bhavraj-sairem-450253293  
-
-## Contributors
-Divanshu  
-🖂divanshu0213@gmail.com  🔗https://github.com/dvanhu 🌐https://www.linkedin.com/in/dvanhu/
