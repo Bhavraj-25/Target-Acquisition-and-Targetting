@@ -6,8 +6,6 @@ A conceptual prototype of a Sniper Advanced Targeting Pod using a standard camer
 
 This project simulates a simplified version of a military-grade targeting pod system. It utilizes a standard USB/web camera for object detection and an Arduino-controlled gimbal mechanism to track and orient toward the target. The direction is estimated using a clock-based reference (e.g., “3 o’clock”) by dividing the field of view into sectors. The system uses serial communication to interface between the PC (running the tracking algorithm) and the Arduino (driving the servo motors).
 
-Built as a final-year B.Tech project, it demonstrates the feasibility of low-cost, modular, and scalable defense-inspired systems using accessible hardware and software tools.
-
 ## Features
 
 -  Real-time video feed from a standard camera  
